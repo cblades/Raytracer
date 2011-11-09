@@ -1,0 +1,133 @@
+18 16           world x and y dims
+0  10 6         viewpoint (x, y, z)
+
+
+16             tiled plane (floor)
+0.2 0.2 0.2    R, G, B
+0.0 0.0 0.0    R, G, B
+2.0 2.0 2.0    R, G, B
+0 1 0          normal
+0 -8 0         point
+1.0 1.0 0.0    grid direction
+1.0 1.0        grid size
+0.2 0.2 0.2    R, G, B
+3.0 3.0 3.0    R, G, B
+0.0 0.0 0.0    R, G, B
+
+13             center
+0.2 0.2 0.2    R, G, B
+3.0 3.0 5.0    R, G, B righ rear
+1.0 1.0 2.0    R, G, B
+1.2 1.3 -5.8
+1
+
+13             center
+0.2 0.2 0.2    R, G, B
+3.0 5.0 1.0    R, G, B rear
+1.0 1.0 2.0    R, G, B
+-0.8 1.3 -5.9
+1
+
+13             center
+0.2 0.2 0.2    R, G, B
+5.0 3.0 1.0    R, G, B left rear
+1.0 1.0 1.0    R, G, B
+-2.7 1.3 -5.8
+1
+
+13
+0.2 0.2 0.2    R, G, B
+1.0 3.0 3.0    R, G, B right rear
+1.0 1.0 1.0    R, G, B
+3.0 1.3 -5.1
+1
+
+13
+0.2 0.2 0.2    R, G, B 
+3.0 3.0 1.0    R, G, B right most
+1.0 1.0 1.0    R, G, B
+4.2 0.9 -4.3
+1
+
+13
+0.2 0.2 0.2    R, G, B
+3.0 1.0 3.0    R, G, B right front
+1.0 1.0 1.0    R, G, B
+3.0 0.3 -3.1
+1
+
+13             center
+0.2 0.2 0.2    R, G, B
+1.0 1.0 3.0    R, G, B front
+1.0 1.0 1.0    R, G, B
+-0.8 -.3 -2.5
+1
+
+13             center
+0.2 0.2 0.2    R, G, B
+1.0 3.0 1.0    R, G, B  right front
+1.0 1.0 1.0    R, G, B
+1.2 -.3 -2.6
+1
+
+13             center
+0.2 0.2 0.2    R, G, B
+0.0 0.0 0.0    R, G, B center
+1.0 1.0 1.0    R, G, B
+-0.8 .2 -4.2
+.7
+
+13
+0.2 0.2 0.2    R, G, B
+3.0 1.0 1.0    R, G, B left front
+1.0 1.0 1.0    R, G, B
+-2.7 -.3 -2.7
+1
+
+13
+0.2 0.2 0.2    R, G, B
+1.0 1.0 1.0    R, G, B Left front
+1.0 1.0 1.0    R, G, B
+-4.6 -.3 -3.2
+1
+
+13
+0.2 0.2 0.2    R, G, B
+1.0 1.0 0.0    R, G, B Left top
+1.0 1.0 1.0    R, G, B
+-5.6 0.4 -4.0
+1
+
+13
+0.2 0.2 0.2    R, G, B
+1.0 0.0 0.0    R, G, B Left back
+1.0 1.0 2.0    R, G, B
+-4.4 1 -5.1
+1
+
+
+10             light
+6  6  6       emissivity
+0.4 .5 -4.2
+
+10             light
+6  6  6       emissivity
+-1.9 .5 -4.2
+10             light
+6  6  6       emissivity
+0 0 5          center
+
+10             light
+ 6   6   6       emissivity
+0 10 -5         center
+
+10             light
+ 6  6  6       emissivity
+0 11 -3        center
+
+10             light
+ 6  6  6       emissivity
+0 11 -3          center
+
+
+

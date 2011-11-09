@@ -1,0 +1,58 @@
+8 6           world x and y dims
+0 0 3         viewpoint (x, y, z)
+
+13             sphere (blue)
+0.2 0.2 5.2    R, G, B
+1.4 2.6 3.6    R, G, B
+0.1 1.0 3.0    R, G, B
+2 0 -3.0       center
+2              radius
+
+13             sphere
+5.2 0.2 0.2    R, G, B
+4.6 1.4 2.6    R, G, B
+4.0 1.0 1.0    R, G, B
+-2 0 -3.0       center
+2              radius
+
+16             tiled plane
+0.2 0.2 0.2    R, G, B
+5.0 5.0 14.0    R, G, B
+0.0 0.0 0.0    R, G, B
+0 1 0          normal
+0 -4 0         point
+1.0 0.0 1.0    grid direction
+1.0 1.0        gridsize
+2.2 0.2 0.2    R, G, B
+1.0 1.0 0.8    R, G, B
+0.0 0.0 0.0    R, G, B
+
+16             tiled plane (Wall)
+0.2 0.2 0.2    R, G, B
+8.0 4.0 2.0    R, G, B
+0.0 0.0 0.0    R, G, B
+0 0 1          normal
+-4 0 -8         point
+1.0 1.0 0.0    grid direction
+1.0 1.0        grid size
+0.2 0.2 0.2    R, G, B
+0.8 0.8 1.2    R, G, B
+0.0 0.0 0.0    R, G, B
+
+10             light
+4  4  4       emissivity
+0 0 5          center
+
+10             light
+ 6   6   6       emissivity
+0 5 -3         center
+
+10             light
+0  0  6       emissivity
+0 11 -3        center
+
+10             light
+6  0  0       emissivity
+0 11 3          center
+
+

@@ -1,0 +1,102 @@
+8 6           world x and y dims
+0 0 3         viewpoint (x, y, z)
+
+
+10          light in center
+4  0 0
+0  -3 -2
+
+15          'table top'
+2 2 2
+0 6 6
+3 3 3
+
+0 1 0       normal
+-3 -2 -3   point
+1 0 0       x dir
+5.5 9       size
+
+
+
+13          hovering sphere
+10 0 0
+0 0 0
+0 0 0
+
+-.3 -1 -5   center radiu
+1
+
+20      background palne
+1 5 1
+0 4 0
+0 0 0
+
+0 0 1
+0 0 -12
+
+1
+
+19          proc sphere
+40 8 3
+4 0 0
+0 0 0
+
+-3 -4 -4
+2
+
+0
+
+19          proc sphere
+40 8 3
+4 0 0
+0 0 0
+
+-3 -4 -9
+2
+
+0
+
+19          proc sphere
+8 40 3
+4 0 0
+0 0 0
+
+3 -4 -4
+2
+
+0
+
+19          proc sphere
+8 40 3
+4 0 0
+0 0 0
+
+3 -4 -9
+2
+
+0
+
+10          light
+0  1 0
+0  0 -2
+
+
+17            plane
+0 0 0         r g b ambient
+10 10 10      r g b diffuse
+0 0 0         r g b specular
+
+0 1  0        normal
+-16 -4 0        point
+
+1 0 0
+40 20
+
+marble.ppm
+2
+
+10            light
+8 8 8         emissivity
+0 0 -15        location
+
+
